@@ -19,7 +19,7 @@ SemLite-GS reconstructs lightweight building meshes from multi-view UAV imagery.
 The project requires Linux, Conda, an NVIDIA GPU with a compatible driver, and the CUDA 11.8 development toolkit. Enter the project directory and install the build dependencies:
 
 ```bash
-cd SemLite_GS
+cd SemLite-GS
 sudo apt-get install build-essential libeigen3-dev libcgal-dev libgmp-dev libmpfr-dev
 ```
 
