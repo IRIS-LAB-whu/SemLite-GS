@@ -1,0 +1,29 @@
+{
+  "scene": "my_scene",
+  "source": "../data/my_scene",
+  "output": "../runs/my_scene",
+  "python": {
+    "fastgs": "/opt/conda/envs/semlite-fastgs/bin/python",
+    "sam3": "/opt/conda/envs/semlite-sam3/bin/python",
+    "pgsr": "/opt/conda/envs/semlite-pgsr/bin/python",
+    "mesh": "/opt/conda/envs/semlite-mesh/bin/python"
+  },
+  "gpus": [0],
+  "processes_per_gpu": 1,
+  "instances_per_group": 4,
+  "cpu_threads": 1,
+  "mesh_workers": 3,
+  "resume": true,
+  "valid_ids": null,
+  "min_mask_area": 200,
+  "initialization": {"iterations": 30000, "resolution": 4},
+  "orthophoto": {"size": 6000},
+  "training": {
+    "iterations": 20000, "resolution": 1, "guard_weight": 1.0,
+    "max_points_per_instance": 100000,
+    "multi_view_min_dis": 0.01, "multi_view_max_dis": 20.0
+  },
+  "tsdf": {"voxel_size": 0.3, "stride": 1, "max_depth": 1000, "min_alpha": 0.5},
+  "lightweight": {"largest_component": true, "max_faces": null},
+  "export_dense": false
+}

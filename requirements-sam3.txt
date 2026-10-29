@@ -1,0 +1,17 @@
+numpy==1.26.4
+Pillow
+scipy
+timm>=1.0.17
+ftfy==6.1.1
+regex
+iopath>=0.1.10
+typing_extensions
+huggingface_hub
+einops
+pycocotools
+decord
+hydra-core
+omegaconf
+opencv-python-headless==4.10.0.84
+setuptools<81
+psutil
