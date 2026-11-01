@@ -72,6 +72,10 @@ data/
 
 COLMAP text format is also supported. Cameras must use the `PINHOLE` or `SIMPLE_PINHOLE` model. Scene coordinates must use the Z axis as the vertical axis and metres as the unit of length. LiDAR point clouds are not required for reconstruction.
 
+## Tianjin_Xiqing Dataset
+
+The [Tianjin_Xiqing dataset](https://drive.google.com/drive/folders/1sPS8axMm7MJAf_EGRicfifiZcdsl3FNu?usp=sharing) contains RGB and thermal UAV images. The data originate from [True 3D thermal inspection of buildings using multimodal UAV images](https://www.sciencedirect.com/science/article/abs/pii/S2352710225000427).
+
 ## Training and Reconstruction
 
 ### Scene Configuration
